@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Tags</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgb(159, 179, 179);
+        }
+        header{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        article > aside{
+            background-color: antiquewhite;
+            padding: 5px;
+        }
+        nav{
+            background-color: rgb(117, 119, 118);
+            padding: 3px;
+            box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.384);
+        }
+        nav > a{
+            background-color: rgb(153, 157, 158);
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        footer{
+            background-color: black;
+            color: aquamarine;
+            text-align: center;
+            margin: 0px;
+            padding: 4px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+        #bolas{
+            display: none;
+        }
+        #bola{
+            display: inline-block;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+        #bola:hover{
+            background-color: rgb(50, 68, 68);
+        }
+        #bola:hover > #bolas{
+            color: white;
+            display: block;
+            text-align: center;
+            padding: 10px;
+        }
+        #teste{
+            display: inline-block;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+        #teste1{
+            color: white;
+            text-align: center;
+            display: none;
+        }
+        #teste:hover{
+            background-color: gray;
+        }
+        #teste:hover > #teste1{
+            color: white;
+            text-align: center;
+            display: block;
+        }
+        #bundas{
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+        #bunda{
+            display: none;
+        }
+        #bundas:hover{
+            background-color: gray;
+        }
+        #bundas:hover > #bunda{
+            color: white;
+            text-align: center;
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esporte</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias do Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatibus iusto ratione voluptatem accusantium culpa vero ipsa quasi rem architecto dolorem quas, nemo vel voluptas commodi. Quo perferendis illum sed?</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Curso em Video</p>
+    </footer>
+    <div id="bola">
+
+       <p id="bolas"></p>
+
+    </div>
+
+    <div id="teste">
+        <p id="teste1"></p>
+    </div>
+    
+    <div id="bundas">
+        <p id="bunda"</p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+
+body{
+    font-family: "Work Sans", Arial, Helvetica, sans-serif;
+    /*Medidas absolutas
+    cm, mm, in, px>, pt, pc - Recomendado não usar!
+    
+    Medidas Relativas
+    em>, ex, rem, vw - Recomendado
+
+    (Utilizar mas o "em" e o "px")
+
+    (16px é o utilizado em diversos sites)
+    16px = 1em 
+-------------------------------------------------------
+    weight(Peso), width(Largura), height(Altura)
+
+    leight, normal , bold , bolder -peso(contraste)
+    */
+    font-size: 16px;
+    font-weight: lighter ;
+    font-style: italic;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    /*shorthand font
+    
+    -font style -> font weight -> font size -> font family
+    */
+}

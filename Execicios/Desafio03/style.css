@@ -1,0 +1,88 @@
+@font-face {
+    font-family:"android" ;
+    src: url(fontes/idroid.otf);
+}
+body{
+    margin: auto;
+    background-color: #0CABA8;
+}
+a{
+    color: black;
+}
+div{
+    padding: 3px 30px;
+    display: none;
+    display: inline-block;
+}
+.div1:hover{
+    background-color: lightgray;
+}
+#first{
+    margin: auto;
+    background-image: linear-gradient(to bottom, #0FC2C0,#0CABA8,#008F8C,#07615f,#034141);
+}
+#second{
+    box-shadow: 10px 5px 30px #000000;
+    background-color: white;
+    padding: 20px;
+    width: 815px;
+    margin: auto;
+}
+#thirthee{
+    background-color: #0db868be;
+    border-radius: 30px;
+    width: 100%;
+    margin: auto;
+
+}
+h1{
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+}
+h2{
+    margin: auto;
+    margin: auto;
+    color: #008F8C;
+    font-family: "android";
+}
+h3{
+    margin: auto;
+    background-image: linear-gradient(to right,#015958,#008F8C,#0CABA8,#0FC2C0,white );
+    font-family: "android";
+    margin: 0px;
+}
+h4{
+    margin: auto;
+    background-color: #034141;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: x-large;
+    text-align: center;
+}
+iframe{
+    width: 100%;
+    margin: auto;
+}
+img{
+    margin: auto;
+}
+p{
+    display: block;
+    text-indent: 20px;
+    padding: 10px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+}
+#agradecimentos{
+    margin: auto;
+    background-color: #034141;
+    text-align: center;
+}
+#subtitulo{
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
